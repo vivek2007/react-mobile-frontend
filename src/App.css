@@ -1,0 +1,403 @@
+.font-size16 {
+  font-size: 14pt !important;
+}
+.font-size18 {
+  font-size: 16pt !important;
+}
+.font-size32 {
+  font-size: 30pt !important;
+}
+.font-size26 {
+  font-size: 24px !important;
+}
+.font-size24 {
+  font-size: 24pt !important;
+}
+.font-size9 {
+  font-size: 9pt !important;
+}
+
+.tabact {
+  display: flex;
+  height: 100%;
+  padding: 5px 50px !important;
+  align-items: center;
+}
+
+.text-primary {
+  color: #000 !important;
+}
+
+/* Header */
+#btnbook {
+  /*background-image: url(./images/buttonbg.png);*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white !important;
+  background-color: #7b68ee;
+  border-radius: 10px;
+  display: inline-flex;
+}
+#headerImage {
+  background-color: blue;
+  /*background-image: url(./images/header-banner.jpg);*/
+}
+/* header */
+/* Common issues we fix css */
+.feature-box {
+  text-align: center;
+  padding: 15px 10px 0px 10px;
+  transition: 0.5s;
+  border: 2px solid #e8e8e8;
+  height: 100%;
+  width: 100%;
+}
+.feature-box:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feature-box h4 {
+  font-size: 16px;
+  margin: 25px 0 15px;
+  font-weight: normal !important;
+}
+
+/* End Common issues we fix css  */
+/* Repair . Sell . Buy  */
+
+.repheading {
+  color: #fff;
+}
+
+.repspan {
+  color: #fff;
+  margin-bottom: 0px !important;
+  font-size: 14px;
+}
+
+.reprounded {
+  border: 1px solid #fff;
+  border-radius: 60px;
+  padding: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+/* End Repair . Sell . Buy   */
+
+/* We fix all devices */
+.fourdivsmob {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tab-box {
+  box-shadow: 1px 1px 3px grey;
+}
+.tab-content .btn-outline-primary {
+  border-radius: 25px;
+  padding: 3px 8px !important;
+  margin: 2px !important;
+}
+.tab-content img {
+  margin-bottom: 12px;
+}
+/* End We fix all devices */
+/* Brisbanebg */
+.Brisbanebg {
+  background-image: url(./images/brisbane-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* End Brisbanebg */
+
+.bris {
+  height: 25px;
+}
+
+.customer {
+  z-index: -2;
+  height: 450px;
+  background-image: url(./images/quantum_computing.jpg);
+  background-position: center;
+  position: relative;
+  background-position-x: 25%;
+}
+
+.customer .title {
+  padding-top: 50px;
+}
+
+.customer .banner {
+  margin-bottom: 60px;
+}
+
+.customer h1 {
+  margin-bottom: 2px;
+  margin-bottom: 2px;
+  padding: 5px;
+}
+
+.testitbg {
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.testigore {
+  text-decoration-line: underline;
+  color: #ffc107 !important;
+}
+
+.customer .banner {
+  /* width: 62% !important; */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.title-section {
+  line-height: 48px;
+  margin-bottom: 0;
+  font-size: 46px;
+}
+
+.card {
+  border: 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.card .col {
+  min-height: 380px;
+  margin: 8px 10px;
+  padding: 32px 30px;
+  vertical-align: top;
+  background-color: #fff;
+  width: 321px;
+  float: left;
+  top: -116px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 15px 50px -12px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 50px -12px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 15px 50px -12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 50px -12px rgba(0, 0, 0, 0.1);
+}
+
+.card .profil {
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.card .image {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+}
+
+.card .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.customer .title p {
+  color: #fff;
+  line-height: 32px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.testmtext {
+  word-break: break-word;
+  color: #333 !important;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.card .text {
+  padding-left: 120px;
+}
+
+.text-primary.white,
+.title-section.white {
+  color: #fff;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 400ms;
+  transition-delay: 0ms;
+}
+
+.lazy-loaded {
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 1 !important;
+}
+
+/*end testmonial*/
+
+/* footer */
+.borderBottom {
+  border-bottom: 1px solid black;
+  padding: 5% 0 !important;
+}
+.borderRight {
+  border-right: 1px solid black;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.boxborderbottom {
+  border-bottom: 1px solid black;
+}
+/* End footer */
+
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(./fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: PoppinsLight;
+  src: url(./fonts/Poppins-Light.ttf);
+}
+.fontfamilypoplight {
+  font-family: PoppinsLight;
+}
+.fontfamilypopMedium {
+  font-family: PoppinsMedium;
+}
+.fontfamilypopRegular {
+  font-family: PoppinsRegular;
+}
+.font-size14 {
+  font-size: 14pt !important;
+}
+
+.modal-header .close {
+  right: 20px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.modal.show .modal-dialog .modal-content {
+  height: 350px;
+}
+
+.modal-body {
+  min-width: 600px;
+}
+
+.modal-body .btn-outline-primary {
+  width: 220px;
+  border-color: #007bff !important;
+}
+
+.modal-body .btn-outline-primary p span {
+  color: #000;
+}
+.modal-body .btn-outline-primary:hover p span {
+  color: #fff;
+}
+
+.modal-header {
+  background: #007bff !important;
+  padding: 5px 10px;
+}
+.modal-header img {
+  max-width: 160px;
+}
+
+.modal-body .heading-title {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.modal-body .subtitle {
+  color: slategray;
+}
+
+.modal-body .img-thumbnail {
+  width: 100px;
+  margin: 0 auto;
+  border: 0;
+}
+
+.modal-lg {
+  max-width: 600px;
+}
+
+.select-phonebrand .d-block {
+  margin: 10px 10px;
+}
+
+.select-phone .d-block,
+.select-phonebrand .d-block {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  position: relative;
+}
+.select-phone .d-block {
+  height: 190px !important;
+}
+
+.select-phone .d-block .font-size16 {
+  font-size: 11pt !important;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.select-phone .d-block:hover {
+  border-color: #007bff;
+}
+
+.modal {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.modal:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  background: #000;
+  color: #fff;
+}
+
+body {
+  overflow-x: hidden;
+}
